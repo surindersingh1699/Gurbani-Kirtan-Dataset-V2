@@ -1,0 +1,39 @@
+# Secrets
+cookies.txt
+.env
+
+# Large database (151MB — download separately or use Git LFS)
+database.sqlite
+
+# Data / outputs
+downloads/
+processed/
+/tmp/
+*.mp4
+*.mkv
+*.webm
+*.wav
+*.flac
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Progress files (server-side)
+progress.json
+failed_videos.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
